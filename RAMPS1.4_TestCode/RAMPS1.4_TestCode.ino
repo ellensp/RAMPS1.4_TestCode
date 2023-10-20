@@ -75,7 +75,7 @@ void loop () {
   if (millis() %1000 <500)
     digitalWrite(LED_PIN, HIGH);
   else
-   digitalWrite(LED_PIN, LOW);
+    digitalWrite(LED_PIN, LOW);
 
   if (millis() %1000 <300) {
     digitalWrite(HEATER_0_PIN, HIGH);
